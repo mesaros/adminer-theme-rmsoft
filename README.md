@@ -12,7 +12,7 @@ Adminer Theme
 
 ### Screenshots
 
-<img src="https://github.com/mesaros/adminer-theme-rmsoft/blob/master/screenshots/adminer-theme-01.png" />
+<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-01.png" />
 
 
 ### Properties

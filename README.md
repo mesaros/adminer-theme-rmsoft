@@ -14,6 +14,10 @@ Adminer Theme
 
 <img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-01.png" />
 
+<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-02.png" />
+
+<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-03.png" />
+
 
 ### Properties
 

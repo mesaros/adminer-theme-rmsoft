@@ -10,6 +10,11 @@ Adminer Theme
 > Adminer is available for **MySQL**, **PostgreSQL**, **SQLite**, **MS SQL**, **Oracle**, **SimpleDB**, **Elasticsearch** and **MongoDB**.
 
 
+### Screenshots
+
+<img src="https://github.com/mesaros/adminer-theme-rmsoft/blob/master/screenshots/adminer-theme-01.png" />
+
+
 ### Properties
 
 - graphic design processing with **CSS technology** 

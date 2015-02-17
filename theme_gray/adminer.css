@@ -1,7 +1,7 @@
 /**
  * @package    Adminer.css - Theme CSS for Adminer - gray
- * @version    2.1.0
- * @date       Sat, 18 Jan 2015 23:16:10 +0100, Slovakia
+ * @version    2.1.1
+ * @date       Tue, 17 Feb 2015 10:25:45 +0100, Slovakia
  * @author     Robert Mesaros
  * @copyright  Copyright © 2015 Robert Mesaros, rmSOFT
  * @web        http://www.rmsoft.sk
@@ -198,11 +198,13 @@ table thead #all-page + a { background: url("data:image/png;base64,iVBORw0KGgoAA
 /*Edit (row)*/
 /*Edit (row - History)*/
 table a[href*="&edit="][href*="&where"],
-#fieldset-history a[href*="&sql=&history"]:not([href*="&sql=&history=all"]) { background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAIcKAACMCgABCaAAAHkXAABTlgABDrYAADr6AAATiGV4+hEAAAFOSURBVHjapNIxSAIBGAVg19bCoEVcchJEsMlFjoZoSKElB8NosCJpCNxaahKhjCMw0C1LjSTIBgWDtOjOE65CIjktrguLsAY7uVOS1yYEegc2vO3/+OHxNAA0g0T14DVjGuIS9o8C6ehQwRncR0zPTwcTY6qwHHPgMboCiachCwwKewRym+ak2jeIpSPI/DVaQhEtoQiJy4IO2juKSP7MQ36JoZpchchGIbJRSFwWDDkrKaIf8QzN8hK+2TXcRpyoHq+D3rWjZzl/UMUN8WES7a9t1FIulHes6Nlq2m9Ao3ahirowtKjXp/0G8MwpqLhHFXUh6dWhwVNov93hfMOC/L4ZlSsv2PA0brYs6DsA0qtDS2BQTyzgPWRDzqNFwj2KlM8IxeU4iWGUwi402UPU2TguA1OKqAvnbCOYJ7QIL48j5TMiE7Ce/Hur/fI7AMEYQUPA30tTAAAAAElFTkSuQmCC") no-repeat scroll right bottom; height: 14px; width: 0; display: inline-block; overflow: hidden; text-decoration: none; }
-.ltr table a[href*="&edit="][href*="&where"],
-.ltr #fieldset-history a[href*="&sql=&history"]:not([href*="&sql=&history=all"]) { padding: 0 0 0 16px; }
-.rtl table a[href*="&edit="][href*="&where"],
-.rtl #fieldset-history a[href*="&sql=&history"]:not([href*="&sql=&history=all"]) { padding: 0 16px 0 0; }
+#fieldset-history a[href*="&sql=&history"]:not([href*="&sql=&history=all"]) { background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAIcKAACMCgABCaAAAHkXAABTlgABDrYAADr6AAATiGV4+hEAAAFOSURBVHjapNIxSAIBGAVg19bCoEVcchJEsMlFjoZoSKElB8NosCJpCNxaahKhjCMw0C1LjSTIBgWDtOjOE65CIjktrguLsAY7uVOS1yYEegc2vO3/+OHxNAA0g0T14DVjGuIS9o8C6ehQwRncR0zPTwcTY6qwHHPgMboCiachCwwKewRym+ak2jeIpSPI/DVaQhEtoQiJy4IO2juKSP7MQ36JoZpchchGIbJRSFwWDDkrKaIf8QzN8hK+2TXcRpyoHq+D3rWjZzl/UMUN8WES7a9t1FIulHes6Nlq2m9Ao3ahirowtKjXp/0G8MwpqLhHFXUh6dWhwVNov93hfMOC/L4ZlSsv2PA0brYs6DsA0qtDS2BQTyzgPWRDzqNFwj2KlM8IxeU4iWGUwi402UPU2TguA1OKqAvnbCOYJ7QIL48j5TMiE7Ce/Hur/fI7AMEYQUPA30tTAAAAAElFTkSuQmCC") no-repeat scroll right bottom; display: inline-block; overflow: hidden; }
+.ltr table a[href*="&edit="][href*="&where"] { background-position: right; padding: 0 20px 0 8px; }
+.rtl table a[href*="&edit="][href*="&where"] { background-position: left; padding: 0 8px 0 20px; }
+.ltr table input[type="checkbox"] + a[href*="&edit="][href*="&where"],
+.ltr #fieldset-history a[href*="&sql=&history"]:not([href*="&sql=&history=all"]) { height: 14px; width: 0; text-decoration: none; padding: 0 0 0 16px; }
+.rtl table input[type="checkbox"] + a[href*="&edit="][href*="&where"],
+.rtl #fieldset-history a[href*="&sql=&history"]:not([href*="&sql=&history=all"]) { height: 14px; width: 0; text-decoration: none; padding: 0 16px 0 0; }
 
 
 
@@ -312,13 +314,13 @@ p a[href$="&event="] { background: url("data:image/png;base64,iVBORw0KGgoAAAANSU
 
 /*Alter procedure   Alternative 3*/
 td a[href*="&procedure="] { background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAK5SURBVBgZBcFPaJZ1HADwz+95n3e6uTnREGdljRKtGCYiHTLxkIUmQeeCOnXzVnQIoi5BQV08TMo6GIiHiKI6ZEWgszzEmtpqSDP7s9ycm9NN977vnuf37fNJEWH/G6df6l676vki2YXVSCAhEpFVOU8uzMX36daNV88MH+oApIhw8O2zZz45vOuhokjrgoYAIALC7NKKEz8vmP67fee3XyfWjwwfakMJRSNt6yob68avaRQpkYhMHVlVheWV2r6tffYPjNi4eLyncWCodf7jI1Jr6sUSUkq9EdHoajQkIZALZOpEIWlPf27r4jndQy/oH9xp4c9tJk4de7eEIEGBlAgJREqKRP/yKXVcsH7r4+Ynf9eVOvrWbtK7YUt/CRBB2SBJIiW5Doqkd3nEllWj+gef1r56UldP8tfYhJt3UhTtuR0FRBAoU6FISYFGkaxePG1LfKv/gYNa/30oNW9o9vbpzvOOXj+wsvvwZ5cKCGSkRJGSIiWtK19af/uU/gef1ZoaVjRXdG7db+bMed173zJVD2QoIFdEkBG4fflrPYs/2vjIMzrTxzS6QvvWfWZGRs3tGZY2bFdnoICcQ0QQTI+e1L3wk5W82dWLR2Qtt+fvNnNuwuLeo1LvgNXNpK4CFFBn6iAysxc/8vCel636Z8SlL84a+2be+Hdjlh57R9WzWaDZKFSdCpSQq5AjvPlLx9DkrM74VwZ3POHm7JzJsUk/7PvU9Sv3yipwYlPTSjuDEqqqVtcMrG0a/+Oa9z8Ytnv7oOXNOyw9edyjffeIIIIL1yqRw0qrAiVU7ZyrnKNTS+te/9flFCYlkJdIS5UcRJEUOSnLlKs6V1DCSqueWdPVuOu1oc6aiCgEGdDfXYIIuptJSnKzkRbrKk9BCSnFe0+9cvq5lNLOED0AgkAIIEAr5zxaFk7A/5IUWNTkV3l/AAAAAElFTkSuQmCC") no-repeat scroll left bottom; }
-.ltr td a[href*="&procedure="] { padding-left: 22px; }
-.rtl td a[href*="&procedure="] { background-position: 80% bottom; padding-right: 22px; }
+.ltr td a[href*="&procedure="] { padding: 0 6px 0 22px; }
+.rtl td a[href*="&procedure="] { background-position: 80% bottom; padding: 0 34px 0 6px; }
 
 /*Alter function   Alternative 3*/
 td a[href*="&function="] { background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMCSURBVDjLTdBNaFxVGMbx/zn33plOZjIT8zmGOnFM1VoNJYFWYi2CtVSMdKUbK+LKhSAGXYhd2m6FQkEXLbiwETcWiq3WpiiSBLRqTa122pEmMZPmw8lkMt93zrnnXhdJbB54l++Ph0cEQQDAm1/l9gOnHmnbMVzXPnXto32fhueXgAqwChigCBSAz4ErNpvxPe/pvcnY8PvPdbE9NeUn6spPFF2zU2moNA1zq1W+vVs7DIxuB3riIQFAbt3gCIEtwLIh7EhSYYklJY4Fgzsj9Cai7WeuLX4stwCjdTxqg+dDRQlKGtabUHI3rtCAf6sGgA/H5hlOR3mq0+mytwHtrSFJrQk11yClwAYsC6QFFgJLgA8IU+anmSLX50uL9wGlehIRi1LDo94MkDLAkiCNwJJgEbCj/AN/j3/G250D1CZ/5BWdHPsf8JTq64k7lNwADyAAywhksLF9vPI17WvXiAy8TiI9yPrs4zSunH1jW4NmXzIRJrNiEBIkG88SaKlcJuX8SezRA6zdzRASitZ4klhHKmEDvHjicsS2ZCjsSJQxSAIgIADCtSnS9i8k0kdoLn1JqEXwz/RttKsKbqP6jATwmqorLEBujkQAAohUJtglrpLofwl38QzCKeLEWtHVRV+Xl17Y9875rNys32LjY0uwpAAhMfOXSJmrJHYdxb33KdLRqPLDrEzc4PTC4dtD741PA8iDo2OdnlIn9u9OsVwOmFsxlLKXSOqf6X5yBLV8FisU0Cz3kZ/8ndzAR2Sq3TNb29lGqUPAyG+ZWYoNG2fhG14dyOP5vSzdPM0D3SHctYfITd1CHvqEhZyLUSq/BUij9dDLB56IfHF8hJOvPcYeLrLn2bcI5ybJXphi+rs17nx/g4n2D4i09VKp1jFaF+430Hp2ebXEufEMbbEI2Zk86q+LpPcepJQvcO/mDM8fv8CDoX7CNuTXKhitF7YAMXjsVCcwCvQBHf25k0eG0l1i3+60mFPR4HxuSLhOB/FohLZ4C3/cyWWBY9fPvfsrwH+7HFmMUqkOrwAAAABJRU5ErkJggg==") no-repeat scroll left bottom; }
-.ltr td a[href*="&function="] { padding-left: 22px; }
-.rtl td a[href*="&function="] { background-position: 80% bottom; padding-right: 22px; }
+.ltr td a[href*="&function="] { padding: 0 6px 0 22px; }
+.rtl td a[href*="&function="] { background-position: 80% bottom; padding: 0 34px 0 6px; }
 
 /*Select data - table id:Rows-   Alternative 3*/
 /*Select data*/
@@ -358,10 +360,10 @@ td a[href*="&view="],
 
 /*New item - table id:Data_free-   Alternative 3*/
 /*New item*/
-td a[href*="&edit="],
+td a[href*="&edit="][id^="Data_free-"],
 p a[href*="&edit="] { background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGSSURBVDjLlZO7S8NQGMVb/weRgoI4iIuCVuoiuBfBwUFwaosPqJODk5OLBVutSlMsuDg4OVWkYO3o4Cha/BNS+qLP9K3HnEtT07f94HATcs8v33eSawBgUGtSlVmVZYimVY3Ro8nQBJgrlUq2Xq9/NxoN9JL6HD6f76oTogEsNBeLRSiK0lIul0Mmk0E8HheQWCwGSZLaICwjAdxQLpdRrVbFShUKBWSzWSQSCQEolUrgSwKBgIB0AWjWRAAN+XweyWSya6RmJsY2gDpGawOvObc2SiqVEp3Istwf0Ck9hJ0wj3Q6/X+AHsJxmAlBIwGoWq0mciGEGhnALkJvDzgK2LB3sQH7mRWrjtmbgQCaNAVf73HyYMdTVMK7HIb3xYkt7zxWDkyeoQC273BbEfy8RPDrGixPZBfeyD4B5aFfgVo/XkQoegt9PX5IBEAP+OmXwdrhDNxhB1xhmzC7nm1/HTR/x2U1ZUXd3PMw+YOn2PTM4Ty8I97MlfcigyZgipBBR3lhe/zO4jQpbJvrkn3CT+8vh7avwsYhJlIAAAAASUVORK5CYII=") no-repeat scroll left bottom; }
-.ltr td a[href*="&edit="] { background-position: right bottom; padding: 0 20px 0 8px; }
-.rtl td a[href*="&edit="] { padding: 0 8px 0 30px; }
+.ltr td a[href*="&edit="][id^="Data_free-"] { background-position: right bottom; padding: 0 20px 0 8px; }
+.rtl td a[href*="&edit="][id^="Data_free-"] { padding: 0 8px 0 30px; }
 .ltr p a[href*="&edit="] { padding-left: 22px; }
 .rtl p a[href*="&edit="] { background-position: right bottom; padding-right: 22px; }
 

@@ -169,8 +169,8 @@ label.block { margin: 0; }
 .pages { left: auto; background: #f0e8d6; }
 .ltr .pages { font-size: 90%; left: 22.5em; }
 .rtl .pages { font-size: 90%; right: 22.5em; }
-.ltr .pages a:last-child { margin: 0 0 0 .5em; }
-.rtl .pages a:last-child { margin: 0 .5em 0 0; }
+.ltr .pages .loadmore { margin: 0 0 0 .5em; }
+.rtl .pages .loadmore { margin: 0 .5em 0 0; }
 .pages a { color: #3a84b5; }
 .pages a:visited { color: #39499b; }
 .pages a:link:hover,

@@ -38,7 +38,6 @@ Put the file **adminer.css** alongside **adminer.php**
 - more about [Graphical interface CSS for Adminer][2]
 - website [rmSOFT][3]
 - [donate][4] *(Thanks)*
-
 - [alternative designs][5]
 
 

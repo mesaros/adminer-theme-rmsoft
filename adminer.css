@@ -1,7 +1,7 @@
 /**
  * @package    Adminer.css - Theme CSS for Adminer - blue
- * @version    2.1.1
- * @date       Tue, 17 Feb 2015 10:25:45 +0100, Slovakia
+ * @version    2.1.2
+ * @date       Mon, 09 Mar 2015 19:43:33 +0100, Slovakia
  * @author     Robert Mesaros
  * @copyright  Copyright © 2015 Robert Mesaros, rmSOFT
  * @web        http://www.rmsoft.sk
@@ -105,11 +105,19 @@ table thead th { border-top: 1px solid #0e344e; border-bottom: 1px solid #0e344e
 .rtl table tbody td:first-child,
 .rtl table tbody th:first-child { border-right: 1px solid #527d9a; }
 table tbody td,
-table tbody th { border-bottom: 1px solid #527d9a; }
+table tbody th { border-bottom: 1px solid #82aec7; }
 .ltr table tbody td,
-.ltr table tbody th { border-right: 1px solid #527d9a; }
+.ltr table tbody th { border-right: 1px solid #82aec7; }
 .rtl table tbody td,
-.rtl table tbody th { border-left: 1px solid #527d9a; text-align: right; }
+.rtl table tbody th { border-left: 1px solid #82aec7; text-align: right; }
+.ltr table tbody td:last-child,
+.ltr table tbody th:last-child { border-right: 1px solid #527d9a; }
+.rtl table tbody td:last-child,
+.rtl table tbody th:last-child { border-left: 1px solid #527d9a; }
+.ltr table tbody tr:last-child td,
+.ltr table tbody tr:last-child th,
+.rtl table tbody tr:last-child td,
+.rtl table tbody tr:last-child th { border-bottom: 1px solid #527d9a; }
 thead th a { color: #f0f9ff; }
 thead th,
 thead td { color: #f0f9ff; }

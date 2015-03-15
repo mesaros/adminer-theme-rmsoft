@@ -1,7 +1,7 @@
 /**
  * @package    Adminer.css - Theme CSS for Adminer - blue
- * @version    2.1.2
- * @date       Mon, 09 Mar 2015 19:43:33 +0100, Slovakia
+ * @version    2.1.3
+ * @date       Thu, 12 Mar 2015 21:10:05 +0100, Slovakia
  * @author     Robert Mesaros
  * @copyright  Copyright © 2015 Robert Mesaros, rmSOFT
  * @web        http://www.rmsoft.sk
@@ -60,6 +60,7 @@ a { color: #f0f9ff; text-decoration: none; }
 a:visited { color: #fff1d0; }
 a:link:hover,
 a:visited:hover { color: #0b3b5a; text-decoration: underline; }
+a sup { margin-left: .2em; }
 #help a { color: #062b42; }
 #help a:visited { color: #062b42; }
 .icon { width: 18px; height: 18px; background-color: navy; }

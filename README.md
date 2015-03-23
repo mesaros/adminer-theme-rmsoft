@@ -44,5 +44,5 @@ Put the file **adminer.css** alongside **adminer.php**
 [1]: http://www.adminer.org/
 [2]: http://www.rmsoft.sk/index.php/en/portfolio/programming-work/web-services/theme-for-adminer
 [3]: http://www.rmsoft.sk
-[4]: http://www.rmsoft.sk/virtual-gallery/start/index.php?key_vg=krmp&img_last=2&f_way=/mesaros/adminer-theme-rmsoft/master/screenshots/&f_mask=theme-for-adminer_f&f_mask_ext=png&langua=en
+[4]: http://www.rmsoft.sk/virtual-gallery/start/index.php?key_vg=krmp&img_last=2&f_way=/mesaros/adminer-theme-rmsoft/master/screenshots/&f_mask=theme-for-adminer_f&f_mask_ext=png&langua=en&help=1
 [5]: http://www.adminer.org/en/#extras

@@ -48,4 +48,4 @@ Put the file **adminer.css** alongside **adminer.php**
 [3]: http://www.rmsoft.sk
 [4]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BB4D8Y28YZDH6 "Thanks for support"
 [5]: http://www.adminer.org/en/#extras
-[6]: http://www.rmsoft.sk/virtual-gallery/start/index.php?key_vg=krmp&img_last=19&f_way=/mesaros/adminer-theme-rmsoft/master/screenshots/vg/&f_mask=adminer-theme_f&f_mask_ext=png&f_frame=2&i_mask=adminer-theme_i&t_file=adminer-theme.js&logo_subtitle_en=/m08/Theme CSS for Adminer/m05/<i>(blue and gray version)</i>&photoindex=1&design=02&logo=1&startscreen=1011101&langua=en
+[6]: http://www.rmsoft.sk/virtual-gallery/start/index.php?key-vg=krmp&img-last=19&f-way=/mesaros/adminer-theme-rmsoft/master/screenshots/vg/&f-mask=adminer-theme-f&f-mask-ext=png&f-frame=2&i-mask=adminer-theme-i&t-file=adminer-theme.js&logo-subtitle-en=/m08/Theme CSS for Adminer/m05/<i>(blue and gray version)</i>&photoindex=1&design=02&logo=1&startscreen=1011101&langua=en

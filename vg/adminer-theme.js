@@ -52,8 +52,51 @@ function TextVG_sk(Num)
 // Czech version ************************
 function TextVG_cz(Num)
 {
-	var Text = TextVG_sk(Num);
+	var Text='';
 
+	switch (Num)
+	{
+		case 1		:	Text = 'Přihlašovací formulář &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
+								break;
+		case 2		:	Text = 'Přihlašovací formulář &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá barevní škála)</i>';
+								break;
+		case 3		:	Text = 'Kompletní přehled databázy';
+								break;
+		case 4		:	Text = 'Grafická schéma databáze';
+								break;
+		case 5		:	Text = 'Struktura datové tabulky &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
+								break;
+		case 6		:	Text = 'Struktura datové tabulky &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá barevní škála)</i>';
+								break;
+		case 7		:	Text = 'Modifikace struktury datové tabulky';
+								break;
+		case 8		:	Text = 'Selekce vyhledávaných a sortovaných dat &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
+								break;
+		case 9		:	Text = 'Selekce vyhledávaných a sortovaných dat &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá barevní škála)</i>';
+								break;
+		case 10		:	Text = 'Změna jazykové mutace';
+								break;
+		case 11		:	Text = 'Režim zobrazení dat RTL <i style="color:#c8f8fe">(right to left)</i>';
+								break;
+		case 12		:	Text = 'Struktura datové tabulky v RTL režime &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
+								break;
+		case 13		:	Text = 'Struktura datové tabulky v RTL režime &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá barevní škála)</i>';
+								break;
+		case 14		:	Text = 'Struktura datové tabulky v LTR <i style="color:#c8f8fe">(left to right)</i> režime';
+								break;
+		case 15		:	Text = 'Kompletní modifikace dat v browse režimu &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
+								break;
+		case 16		:	Text = 'Kompletní modifikace dat v browse režimu &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá barevní škála)</i>';
+								break;
+		case 17		:	Text = 'Modifikace záznamu';
+								break;
+		case 18		:	Text = 'Odhlášení &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
+								break;
+		case 19		:	Text = 'Odhlášení &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá barevní škála)</i>';
+								break;
+	}
+
+	Text = '<b style="color:#c7bd94; font-size:110%">Téma CSS pro aplikaci Adminer</b><br /><br />' + Text;
 	return (Text);
 }
 

@@ -61,6 +61,7 @@ a:visited { color: #fff1d0; }
 a:link:hover,
 a:visited:hover { color: #0b3b5a; text-decoration: underline; }
 a sup { margin-left: .2em; }
+#help { background: #feeec7; }
 #help a { color: #062b42; }
 #help a:visited { color: #062b42; }
 .icon { width: 18px; height: 18px; background-color: navy; }
@@ -158,13 +159,13 @@ tbody tr:hover th { background: #fff9eb !important; }
 a.text:hover { text-decoration: none; }
 #schema { font-size: 85%; }
 #schema .table { background: #769eb8; border: 1px solid silver; padding: 3px; cursor: move; position: absolute; }
-.message { font-size: 90%; }
+.message { font-size: 90%; border: 1px solid #7fbd7f; }
 .message .time { color: #a6a6a6; }
 .message a { color: #32729c; }
 .message a:visited { color: #39499b; }
 .message a:link:hover,
 .message a:visited:hover { color: #0b3b5a; text-decoration: underline; }
-.error { font-size: 90%; }
+.error { font-size: 90%; border: 1px solid #e76f6f; }
 .error .time { color: #cc6633; }
 .error a { color: #32729c; }
 .error a:visited { color: #39499b; }

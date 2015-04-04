@@ -33,15 +33,17 @@ function TextVG_sk(Num)
 								break;
 		case 14		:	Text = 'Štruktúra dátovej tabuľky v LTR <i style="color:#c8f8fe">(left to right)</i> režime';
 								break;
-		case 15		:	Text = 'Kompletná modifikácia dát v browse režime &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá farebná škála)</i>';
+		case 15		:	Text = 'Mnohonásobný SELECT! &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá farebná škála)</i>';
 								break;
-		case 16		:	Text = 'Kompletná modifikácia dát v browse režime &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá farebná škála)</i>';
+		case 16		:	Text = 'Kompletná modifikácia dát v browse režime &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá farebná škála)</i>';
 								break;
-		case 17		:	Text = 'Modifikácia záznamu';
+		case 17		:	Text = 'Kompletná modifikácia dát v browse režime &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá farebná škála)</i>';
 								break;
-		case 18		:	Text = 'Odhlásenie &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá farebná škála)</i>';
+		case 18		:	Text = 'Modifikácia záznamu';
 								break;
-		case 19		:	Text = 'Odhlásenie &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá farebná škála)</i>';
+		case 19		:	Text = 'Odhlásenie &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá farebná škála)</i>';
+								break;
+		case 20		:	Text = 'Odhlásenie &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá farebná škála)</i>';
 								break;
 	}
 
@@ -84,15 +86,17 @@ function TextVG_cz(Num)
 								break;
 		case 14		:	Text = 'Struktura datové tabulky v LTR <i style="color:#c8f8fe">(left to right)</i> režime';
 								break;
-		case 15		:	Text = 'Kompletní modifikace dat v browse režimu &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
+		case 15		:	Text = 'Mnohonásobný SELECT! &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
 								break;
-		case 16		:	Text = 'Kompletní modifikace dat v browse režimu &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá barevní škála)</i>';
+		case 16		:	Text = 'Kompletní modifikace dat v browse režimu &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
 								break;
-		case 17		:	Text = 'Modifikace záznamu';
+		case 17		:	Text = 'Kompletní modifikace dat v browse režimu &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá barevní škála)</i>';
 								break;
-		case 18		:	Text = 'Odhlášení &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
+		case 18		:	Text = 'Modifikace záznamu';
 								break;
-		case 19		:	Text = 'Odhlášení &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá barevní škála)</i>';
+		case 19		:	Text = 'Odhlášení &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
+								break;
+		case 20		:	Text = 'Odhlášení &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(sivá barevní škála)</i>';
 								break;
 	}
 
@@ -135,15 +139,17 @@ function TextVG_en(Num)
 								break;
 		case 14		:	Text = 'Show structure - LTR mode <i style="color:#c8f8fe">(left to right)</i>';
 								break;
-		case 15		:	Text = 'Complete edit data in browse mode &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(blue version)</i>';
+		case 15		:	Text = 'Multiple SELECT! &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(blue version)</i>';
 								break;
-		case 16		:	Text = 'Complete edit data in browse mode &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(gray version)</i>';
+		case 16		:	Text = 'Complete edit data in browse mode &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(blue version)</i>';
 								break;
-		case 17		:	Text = 'Edit record';
+		case 17		:	Text = 'Complete edit data in browse mode &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(gray version)</i>';
 								break;
-		case 18		:	Text = 'Logout &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(blue version)</i>';
+		case 18		:	Text = 'Edit record';
 								break;
-		case 19		:	Text = 'Logout &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(gray version)</i>';
+		case 19		:	Text = 'Logout &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(blue version)</i>';
+								break;
+		case 20		:	Text = 'Logout &nbsp;&nbsp;&nbsp;<i style="color:#d1d1d1">(gray version)</i>';
 								break;
 	}
 

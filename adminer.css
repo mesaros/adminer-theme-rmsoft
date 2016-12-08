@@ -1,11 +1,11 @@
 /**
  * @package    Adminer.css - Theme CSS for Adminer - blue
- * @version    2.1.3
- * @date       Thu, 12 Mar 2015 21:10:05 +0100, Slovakia
+ * @version    2.1.6
+ * @date       Mon, 05 Dec 2016 23:17:12 +0100, Slovakia
  * @author     Robert Mesaros
- * @copyright  Copyright © 2015 Robert Mesaros, rmSOFT
+ * @copyright  Copyright © 2016 Robert Mesaros, rmSOFT
  * @web        http://www.rmsoft.sk
- * @link       http://www.rmsoft.sk/index.php/en/portfolio/programming-work/web-services/graphical-interface-css-for-adminer
+ * @link       http://www.rmsoft.sk/index.php/en/portfolio/programming-work/web-services/theme-for-adminer
  *
  * @donate     https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BB4D8Y28YZDH6
  *
@@ -71,6 +71,7 @@ tbody a { color: #32729c; }
 tbody a:visited { color: #39499b; }
 #menu p { padding: .8em 1em; margin: 0; border-bottom: 1px solid #32729c; }
 #menu .links a { display: block; margin: 0; font-size: 93%; }
+#menu p.message { margin: 10px 0; border-bottom: 1px solid #7fbd7f; }
 .ltr p.links { margin: .8em 20px 8px 0; }
 .rtl p.links { margin: .8em 0 8px 20px; }
 .links a { margin: 0; }
@@ -151,14 +152,21 @@ thead th { background: #32729c; }
 .js .checkable thead .checked th { background: #32729c; }
 .js .checkable .checked td,
 .js .checkable .checked th { background: #b7d4e6; }
+.js .checkable .odd.checked td,
+.js .checkable .odd.checked th { background: #aacbde; }
 tbody tr:hover td,
 tbody tr:hover th { background: #fff9eb !important; }
+tbody tr.checked:hover td,
+tbody tr.checked:hover th { background: #f5edd9 !important; }
 .js .column { position: absolute; background: #3a84b5; opacity: .9; margin-top: -.27em; }
 .ltr .column { padding: .27em 1ex .3em 0; margin-left: .3em; }
 .rtl .column { padding: .27em 0 .3em 1ex; margin-right: .3em; }
 a.text:hover { text-decoration: none; }
 #schema { font-size: 85%; }
 #schema .table { background: #769eb8; border: 1px solid silver; padding: 3px; cursor: move; position: absolute; }
+.binary { color: #aa0000; }
+span.jush {font-size: 120%; }
+span.jush-bac { color: #d22929; }
 .message { font-size: 90%; border: 1px solid #7fbd7f; }
 .message .time { color: #a6a6a6; }
 .message a { color: #32729c; }
@@ -186,6 +194,7 @@ label.block { margin: 0; }
 .pages a:link:hover,
 .pages a:visited:hover { color: #0b3b5a; text-decoration: underline; }
 #menu #tables { font-size: 75%; }
+#menu #tables a.view { margin: 0 10px; }
 .rtl p.logout { margin: 0 0 0 20px; }
 .ltr #logout { margin-top: .15em; }
 .rtl #logout { margin-top: .7em; }
@@ -215,6 +224,9 @@ table a[href*="&edit="][href*="&where"],
 .ltr #fieldset-history a[href*="&sql=&history"]:not([href*="&sql=&history=all"]) { height: 14px; width: 0; text-decoration: none; padding: 0 0 0 16px; }
 .rtl table input[type="checkbox"] + a[href*="&edit="][href*="&where"],
 .rtl #fieldset-history a[href*="&sql=&history"]:not([href*="&sql=&history=all"]) { height: 14px; width: 0; text-decoration: none; padding: 0 16px 0 0; }
+
+/*Edit (user)*/
+td a[href*="&user="] { line-height: 19px; }
 
 
 
@@ -420,5 +432,5 @@ p a[href*="&trigger="] { background: url("data:image/png;base64,iVBORw0KGgoAAAAN
 .message { background: #efe url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGrSURBVDjLvZPZLkNhFIV75zjvYm7VGFNCqoZUJ+roKUUpjRuqp61Wq0NKDMelGGqOxBSUIBKXWtWGZxAvobr8lWjChRgSF//dv9be+9trCwAI/vIE/26gXmviW5bqnb8yUK028qZjPfoPWEj4Ku5HBspgAz941IXZeze8N1bottSo8BTZviVWrEh546EO03EXpuJOdG63otJbjBKHkEp/Ml6yNYYzpuezWL4s5VMtT8acCMQcb5XL3eJE8VgBlR7BeMGW9Z4yT9y1CeyucuhdTGDxfftaBO7G4L+zg91UocxVmCiy51NpiP3n2treUPujL8xhOjYOzZYsQWANyRYlU4Y9Br6oHd5bDh0bCpSOixJiWx71YY09J5pM/WEbzFcDmHvwwBu2wnikg+lEj4mwBe5bC5h1OUqcwpdC60dxegRmR06TyjCF9G9z+qM2uCJmuMJmaNZaUrCSIi6X+jJIBBYtW5Cge7cd7sgoHDfDaAvKQGAlRZYc6ltJlMxX03UzlaRlBdQrzSCwksLRbOpHUSb7pcsnxCCwngvM2Rm/ugUCi84fycr4l2t8Bb6iqTxSCgNIAAAAAElFTkSuQmCC") no-repeat scroll 0.8em center; }
 .ltr .message { padding-left: 40px; }
 .rtl .message { background-position: 99%; padding-right: 40px; }
-
-
+.ltr #menu .message { padding-left: 40px; }
+.rtl #menu .message { background-position: 95%; padding-right: 40px; }

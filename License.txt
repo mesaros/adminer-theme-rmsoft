@@ -1,8 +1,8 @@
 @package    Adminer.css - Theme for Adminer
 @author     Robert Mesaros
-@copyright  Copyright © 2015 Robert Mesaros, rmSOFT
+@copyright  Copyright © 2016 Robert Mesaros, rmSOFT
 @web        http://www.rmsoft.sk
-@link       http://www.rmsoft.sk/index.php/en/portfolio/programming-work/web-services/graphical-interface-css-for-adminer
+@link       http://www.rmsoft.sk/en/portfolio/programming-work/web-services/theme-for-adminer
 @donate     https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BB4D8Y28YZDH6
 @license    MIT: http://mit-license.org/
             Permission is hereby granted, free of charge, to any person obtaining a copy of

@@ -33,7 +33,7 @@ function TextVG_sk(Num)
 								break;
 		case 14		:	Text = 'Štruktúra dátovej tabuľky v LTR <i style="color:#c8f8fe">(left to right)</i> režime';
 								break;
-		case 15		:	Text = 'Mnohonásobný SELECT! &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá farebná škála)</i>';
+		case 15		:	Text = 'Mnohonásobný SELECT !!! &nbsp;&nbsp;&nbsp;<span style="color:#efb16e">Paráda!</span> &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá farebná škála)</i>';
 								break;
 		case 16		:	Text = 'Kompletná modifikácia dát v browse režime &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá farebná škála)</i>';
 								break;
@@ -86,7 +86,7 @@ function TextVG_cz(Num)
 								break;
 		case 14		:	Text = 'Struktura datové tabulky v LTR <i style="color:#c8f8fe">(left to right)</i> režime';
 								break;
-		case 15		:	Text = 'Mnohonásobný SELECT! &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
+		case 15		:	Text = 'Mnohonásobný SELECT !!! &nbsp;&nbsp;&nbsp;<span style="color:#efb16e">Paráda!</span> &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
 								break;
 		case 16		:	Text = 'Kompletní modifikace dat v browse režimu &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(modrá barevní škála)</i>';
 								break;
@@ -139,7 +139,7 @@ function TextVG_en(Num)
 								break;
 		case 14		:	Text = 'Show structure - LTR mode <i style="color:#c8f8fe">(left to right)</i>';
 								break;
-		case 15		:	Text = 'Multiple SELECT! &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(blue version)</i>';
+		case 15		:	Text = 'Multiple SELECT !!! &nbsp;&nbsp;&nbsp;<span style="color:#efb16e">Wow!</span> &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(blue version)</i>';
 								break;
 		case 16		:	Text = 'Complete edit data in browse mode &nbsp;&nbsp;&nbsp;<i style="color:#92bcd8">(blue version)</i>';
 								break;

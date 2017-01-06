@@ -1,9 +1,9 @@
 /**
  * @package    Adminer.css - Theme CSS for Adminer - gray
- * @version    2.1.6
- * @date       Mon, 05 Dec 2016 23:17:12 +0100, Slovakia
+ * @version    2.1.7
+ * @date       Fri, 06 Jan 2017 21:12:08 +0100, Slovakia
  * @author     Robert Mesaros
- * @copyright  Copyright © 2016 Robert Mesaros, rmSOFT
+ * @copyright  Copyright © 2017 Robert Mesaros, rmSOFT
  * @web        http://www.rmsoft.sk
  * @link       http://www.rmsoft.sk/en/portfolio/programming-work/web-services/theme-for-adminer
  *
@@ -167,6 +167,7 @@ a.text:hover { text-decoration: none; }
 .binary { color: #aa0000; }
 span.jush {font-size: 120%; }
 span.jush-bac { color: #d22929; }
+span.jush a:visited { color: #844200; }
 .message { font-size: 90%; border: 1px solid #7fbd7f; }
 .message .time { color: #a6a6a6; }
 .message a { color: #844200; }

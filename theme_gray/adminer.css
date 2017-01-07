@@ -1,7 +1,7 @@
 /**
  * @package    Adminer.css - Theme CSS for Adminer - gray
- * @version    2.1.7
- * @date       Fri, 06 Jan 2017 21:12:08 +0100, Slovakia
+ * @version    2.1.8
+ * @date       Sat, 07 Jan 2017 17:34:12 +0100, Slovakia
  * @author     Robert Mesaros
  * @copyright  Copyright © 2017 Robert Mesaros, rmSOFT
  * @web        http://www.rmsoft.sk
@@ -82,8 +82,10 @@ tbody a:visited { color: #844200; }
 code { background: #f0e8d6; padding: .2em .5em; white-space: normal; }
 .ltr code { margin: 0 13px 0 0; }
 .rtl code { margin: 0 0 0 13px; }
+table code { font-size: 120%; background: #f0e8d6; padding: .1em .3em; }
 code.jush-sql { background: #f0e8d6; }
 pre { background: #e0e0e0; }
+textarea { font-size: 120%; }
 table,
 td,
 th { border: 0; }

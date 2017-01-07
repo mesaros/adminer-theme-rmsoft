@@ -1,7 +1,7 @@
 /**
  * @package    Adminer.css - Theme CSS for Adminer - adjusted_original
- * @version    2.1.7
- * @date       Fri, 06 Jan 2017 21:12:08 +0100, Slovakia
+ * @version    2.1.8
+ * @date       Sat, 07 Jan 2017 17:34:12 +0100, Slovakia
  * @author     Robert Mesaros
  * @copyright  Copyright © 2017 Robert Mesaros, rmSOFT
  * @web        http://www.rmsoft.sk
@@ -65,7 +65,9 @@ a sup { margin-left: .2em; }
 code { padding: .2em .5em; white-space: normal; }
 .ltr code { margin: 0 13px 0 0; }
 .rtl code { margin: 0 0 0 13px; }
+table code { font-size: 120%; background: #d4d4f6; padding: .1em .3em; }
 pre { background: #eee; }
+textarea { font-size: 120%; }
 table,
 td,
 th { border: 0; }

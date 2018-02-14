@@ -1,6 +1,6 @@
 @package    Adminer.css - Theme for Adminer
 @author     Robert Mesaros
-@copyright  Copyright © 2017 Robert Mesaros, rmSOFT
+@copyright  Copyright © 2018 Robert Mesaros, rmSOFT
 @web        http://www.rmsoft.sk
 @link       http://www.rmsoft.sk/en/portfolio/programming-work/web-services/theme-for-adminer
 @donate     https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BB4D8Y28YZDH6

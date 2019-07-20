@@ -12,7 +12,7 @@ Adminer Theme
 
 ### Screenshots
 
-**[Virtual Gallery][6]**
+**[Screenshots in Virtual Gallery][6]**
 
 <img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-01.png" width="560px" />
 

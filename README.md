@@ -20,6 +20,8 @@ Adminer Theme
 
 <img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-03.png" width="560px" />
 
+<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-04.png" width="474px" />
+
 
 ### Properties
 

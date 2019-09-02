@@ -156,4 +156,3 @@ function TextVG_en(Num)
 	Text = '<b style="color:#c7bd94; font-size:110%">Theme CSS for Adminer</b><br /><br />' + Text;
 	return (Text);
 }
-

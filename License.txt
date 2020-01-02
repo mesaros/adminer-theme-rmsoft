@@ -1,8 +1,8 @@
-/**
+﻿/**
  * @package    Theme for Adminer - Adminer.css
  * @info       graphic user interface - multicolor (light and dark)
  * @author     Robert Mesaros
- * @copyright  Copyright © 2019 Robert Mesaros, rmSOFT
+ * @copyright  Copyright © 2020 Robert Mesaros, rmSOFT
  * @web        http://www.rmsoft.sk
  * @link       http://www.rmsoft.sk/en/portfolio/programming-work/web-services/theme-for-adminer
  *

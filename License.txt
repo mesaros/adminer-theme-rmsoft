@@ -8,7 +8,7 @@
  *
  * @donate     https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BB4D8Y28YZDH6
  *
- * @license    MIT: http://mit-license.org/
+ * @license    MIT: https://mit-license.org/
  *             Permission is hereby granted, free of charge, to any person obtaining a copy of
  *             this software and associated documentation files (the "Software"), to deal in
  *             the Software without restriction, including without limitation the rights to use,

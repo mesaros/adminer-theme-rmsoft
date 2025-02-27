@@ -25,12 +25,15 @@ Adminer Theme
 
 ### Properties
 
-- graphic design processing with **CSS technology** 
-- different **variants** of processing 
-- support to view **mode RTL** (right to left) 
-- with or without **icons** 
-- different **color mutations**
-
+- graphic design processing with **CSS technology**
+- variants **with and without icons**
+- **the most optimal and efficient** display of data (quick and clear)
+- **the maximum amount** of relevant information on the given surface
+- the name (title) of the data overview displayed in the lower right part of the screen (**the name is always available** when scrolling the data)
+- **graphic and color differentiation** of marked records
+- **the footer is anchored** when scrolling data
+- support for **RTL mode display** (right to left)
+- **different color mutations**, graphically matched **in light and dark mode**
 
 ### Installation
 

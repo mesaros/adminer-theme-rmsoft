@@ -25,12 +25,15 @@ Adminer téma
 
 ### Vlastnosti
 
-- grafické spracovanie dizajnu **technológiou CSS** 
-- rôzne **varianty** spracovania
-- podpora pre zobrazenie **režimu RTL** (right to left) 
-- **s ikonkami** aj bez
-- rôzne **farebné mutácie**
-
+- grafické spracovanie dizajnu **technológiou CSS**
+- varianty **s ikonkami aj bez**
+- **najoptimálnejšie a najefektívnejšie zobrazenie** dát (rýchle a prehľadné)
+- **maximálne množstvo** relevantných informácií na danej ploche
+- názov (titulok) prehľadu dát zobrazený v pravej dolnej časti obrazovky (**názov** je pri posúvaní dát **vždy k dispozícii**)
+- **grafické a farebné** odlíšenie označených záznamov
+- **pätička** je pri rolovaní dát **ukotvená**
+- podpora pre zobrazenie **režimu RTL** (right to left)
+- rôzne **farebné mutácie**, graficky zladené **vo svetlom a tmavom móde**
 
 ### Inštalácia
 

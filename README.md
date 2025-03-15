@@ -20,7 +20,19 @@ Adminer Theme
 
 <img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-03.png" width="560px" />
 
-<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-04.png" width="474px" />
+<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-04.png" width="560px" />
+
+<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-05.png" width="560px" />
+
+<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-06.png" width="560px" />
+
+<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-07.png" width="560px" />
+
+<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-08.png" width="560px" />
+
+<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-09.png" width="560px" />
+
+<img src="https://raw.githubusercontent.com/mesaros/adminer-theme-rmsoft/master/screenshots/adminer-theme-10.png" width="474px" />
 
 
 ### Properties
